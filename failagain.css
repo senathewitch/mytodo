@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria;
+}
+
+body{
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto
+}
+
+.toDoTitle{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-top: 32px;
+    background-color: hotpink;
+}
+
+#inputText{
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    border-radius: 4px 0 0 4px;
+    border:none;
+    outline: none;
+}
+
+#addToDo{
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    border-radius: 0;
+    border: none;
+    background-color: rgb(213, 106, 223);
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+#clearToDo{
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    border-radius: 0;
+    border: transparent;
+    background-color: rgb(213, 106, 223);
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+#clearToDo:hover{
+    background-color:white;
+}
+
+#addToDo:hover{
+    background-color:white;
+}
+
+#toDoContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    border-radius: 80px;
+    margin-top: 16px;
+    background-color: rgb(209, 167, 190);
+    align-items: center;
+}
+
+
+.paragraph-styling{
+    margin: 30px;
+    cursor: pointer ;
+    font: size 3px;;
+    color: hotpink;
+    text-transform: capitalize;
+    
+}
